@@ -19,8 +19,6 @@ body {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
-  .container > * {
-    font-size: 4rem; }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
@@ -261,4 +259,33 @@ body {
 
 .footer {
   background-color: #54483a;
-  grid-column: full-start/full-end; }
+  grid-column: full-start/full-end;
+  background-color: #101d2c;
+  padding: 8rem; }
+  .footer .copyright {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 6rem;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 2rem;
+  align-items: center;
+  transition: all 0.2s; }
+  .nav__link:link, .nav___link:visited {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: block; }
+    .nav__link:link:hover, .nav___link:visited:hover {
+      background-color: rgba(255, 255, 255, 0.05); }
