@@ -5,6 +5,8 @@
 
 .heading-1 {
     font-family: $font-display;
+    font-size: 4rem;
+    color: #fff;
     @extend %heading;
 }
 .heading-2 {
