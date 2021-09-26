@@ -10,3 +10,5 @@
 8.  if we give container to fix width than give margin-right and margin-left auto.   
 9.   `::before` and `::after` is also grid items. 
 10.   use filter = briteness property for darkedn image.
+11.   if you give height to image than no need to give width to image. but if you give max-height than also give max-width to 100%.
+12.   `calc(100vh - 6rem)`  put space around minus sign. Other wise show invalid property . `calc(100vh -6rem)` and `calc(100vh- 6rem)` both are wrong.
